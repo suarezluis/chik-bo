@@ -10,6 +10,7 @@ body{
     background-color: rgba(245, 245, 245, 0.555);
     border-radius: 50px;
     margin: 0 auto;
+    max-width: 80%;
 }
 
 .menuImage{
@@ -34,6 +35,8 @@ body{
     border-radius: 30px;
     margin: 20px auto;
 }
+
+
 
 .social{
     max-width: 50%;
