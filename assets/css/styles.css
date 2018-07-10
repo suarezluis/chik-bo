@@ -34,6 +34,7 @@ body{
 #gmap_canvas{
     border-radius: 30px;
     margin: 20px auto;
+    max-width: 90%;
 }
 
 
