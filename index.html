@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- reset css -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <!-- materialize css -->
+    <link rel="stylesheet" href="assets/vendor/materialize/css/materialize.min.css">
+    <!-- materialize icons -->
+    <link rel="stylesheet" href="assets/vendor/materialize/css/icons.css">
+    <!-- styles.css -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- Favicon link -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- --------------------------Nav Bar----------------------------- -->
+    <nav>
+        <div class="nav-wrapper black">
+            <a href="#!" class="brand-logo center">
+                <img class="whiteLogo" src="assets/images/logo.svg " alt=" ">
+            </a>
+            <a href="# " data-target="mobile-demo " class="sidenav-trigger ">
+                <i class="material-icons ">menu</i>
+            </a>
+            <ul class="left hide-on-med-and-down ">
+                <li>
+                    <a href="#menu">Menu</a>
+                </li>
+                <li>
+                    <a href="#guarniciones">Guarniciones</a>
+                </li>
+                <li>
+                    <a href="#direccion">Direccion</a>
+                </li>
+                <li>
+                    <a href="#contacto">Contactanos</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav " id="mobile-demo ">
+        <li>
+            <a href="#menu">Menu</a>
+        </li>
+        <li>
+            <a href="#guarniciones">Guarniciones</a>
+        </li>
+        <li>
+            <a href="#direccion">Direccion</a>
+        </li>
+        <li>
+            <a href="#contacto">Contactanos</a>
+        </li>
+    </ul>
+    <!-- --------------------------Nav Bar----------------------------- -->
+
+    <!-- ---------------------------Parallax--------------------- -->
+    <div class="parallax-container valign-wrapper ">
+        <div class="parallax ">
+            <img src="assets/images/wood.jpg">
+        </div>
+        <img class="logoColor" src="assets/images/logoColor.png" alt="">
+
+    </div>
+    <!-- ---------------------------Parallax--------------------- -->
+    <br>
+    <!-- -------------------------------menu------------------------- -->
+    <div class="row">
+        <div class="col s12 m6" id="menu">
+            <img class="menuImage" src="assets/images/menu.jpg" alt="">
+        </div>
+        <div class="col s12 m6" id="guarniciones">
+            <img class="menuImage" src="assets/images/guarniciones.jpg" alt="">
+        </div>
+    </div>
+    <!-- -------------------------------menu------------------------- -->
+    <br>
+    <!-- -------------------------direccion------------------- -->
+    <div class="row woodBG">
+        <div class="col s12 m6" id="direccion">
+            <h1>Avenida Aniceto Padilla</h1>
+            <h2>entre Tomas Frias y Potosi</h2>
+            <h1>#4201</h1>
+            <h2>Cochabamba</h2>
+
+        </div>
+        <div class="col s12 m6" id="mapa">
+            <div class="mapa">
+            <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyA_7c5eJutj22AeVcOL1_sFJ-aqErwOtqE'></script><div style='overflow:hidden;height:100%;width:100%;'><div id='gmap_canvas' style='height:620px;width:620px;'></div><style>#gmap_canvas img{max-width:100%!important;background:none!important}</style></div> <a href='https://embedmap.org/'>google maps embed</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=1e7dcb44ea746298810eb79688aa00605aed4276'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:17,center:new google.maps.LatLng(-17.3784266,-66.1549736),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(-17.3784266,-66.1549736)});infowindow = new google.maps.InfoWindow({content:'<strong>CHIC</strong>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+        </div>
+        </div>
+    </div>
+    
+
+    <!-- -------------------------direccion------------------- -->
+    <!-- -------------------------contacto------------------- -->
+    
+    <div class="row #contacto center-align">
+        <h3>Contactanos al <span class="phone">785-1131</span>o en nuestras redes:</h3>
+        <div class="col s6 m6">
+            <img class="social" src="assets/images/facebook.png" alt="">
+        </div>
+        <div class="col s12 m6">
+            <img class="social" src="assets/images/instagram.png" alt="">    
+        </div>
+    </div>
+    
+    <!-- -------------------------contacto------------------- -->
+<!-- -------------------------footer------------------- -->
+    <footer class="page-footer black">
+        <div class="container center-align">
+          
+        
+          
+          © 2018 Copyright <a href="http://www.suarezluis.com" target="blank">Luis Suarez</a>
+          <br>
+          <br>
+          
+        </div>
+      </footer>
+<!-- -------------------------footer------------------- -->
+    <script src="assets/vendor/materialize/js/materialize.min.js "></script>
+    <script src="assets/vendor/materialize/js/init.js "></script>
+    <script src="assets/javascript/main.js "></script>
+</body>
+
+</html>

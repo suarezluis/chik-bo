@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+    color: white;
+}
+.whiteLogo{
+    height: 60px;
+}
+
+.logoColor{
+    background-color: rgba(245, 245, 245, 0.555);
+    border-radius: 50px;
+    margin: 0 auto;
+}
+
+.menuImage{
+    max-width: 100%;
+}
+
+.woodBG{
+    background-image: url("../images/wood.jpg")
+}
+
+#direccion{
+    text-align: center;
+    text-shadow: 3px 3px 3px black;
+}
+
+.mapa{
+    
+    color: black;
+}
+
+#gmap_canvas{
+    border-radius: 30px;
+    margin: 20px auto;
+}
+
+.social{
+    max-width: 50%;
+    margin: 0 auto;
+}
